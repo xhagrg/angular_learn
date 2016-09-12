@@ -42,9 +42,10 @@ var HeroDetailComponent = (function () {
             templateUrl: 'app/hero-detail.component.html',
             styleUrls: ['app/hero-detail.component.css']
         }), 
-        __metadata('design:paramtypes', [hero_service_1.HeroService, router_1.ActivatedRoute])
+        __metadata('design:paramtypes', [hero_service_1.HeroService, (typeof (_a = typeof router_1.ActivatedRoute !== 'undefined' && router_1.ActivatedRoute) === 'function' && _a) || Object])
     ], HeroDetailComponent);
     return HeroDetailComponent;
+    var _a;
 }());
 exports.HeroDetailComponent = HeroDetailComponent;
 //# sourceMappingURL=hero-detail.component.js.map
